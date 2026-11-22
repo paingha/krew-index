@@ -4,46 +4,46 @@ kind: Plugin
 metadata:
   name: tug
 spec:
-  version: v0.1.4
+  version: v0.2.0
   platforms:
     - bin: tug.exe
-      uri: https://github.com/paingha/tugcli/releases/download/v0.1.4/tug_0.1.4_windows_arm64.zip
-      sha256: f2fdb15d96fdb710bf2f5c68af3815100f54cc81c4ebcb29a8454a66b70edaae
+      uri: https://github.com/paingha/tugcli/releases/download/v0.2.0/tug_0.2.0_windows_arm64.zip
+      sha256: 5c7e21c5181d21ca4b8964d3e370b2669ce5e192136c28a57cea60ab2ec032a2
       selector:
         matchLabels:
           os: windows
           arch: arm64
     - bin: tug.exe
-      uri: https://github.com/paingha/tugcli/releases/download/v0.1.4/tug_0.1.4_windows_amd64.zip
-      sha256: 145c1ed79a414300a7df62d9afba458d90cbde1269fbf6181cd23124783b636b
+      uri: https://github.com/paingha/tugcli/releases/download/v0.2.0/tug_0.2.0_windows_amd64.zip
+      sha256: dacbcd66a15d0af979e68f0b65de56ff073ee1c996cb2827a3457653c00b140b
       selector:
         matchLabels:
           os: windows
           arch: amd64
     - bin: tug
-      uri: https://github.com/paingha/tugcli/releases/download/v0.1.4/tug_0.1.4_linux_arm64.tar.gz
-      sha256: ebf87d108a068efadd69c52d03f70532a90e0379600b23c54b7a37e690b40b2f
+      uri: https://github.com/paingha/tugcli/releases/download/v0.2.0/tug_0.2.0_linux_arm64.tar.gz
+      sha256: 9d0f4cb0101553c12f93cabfea1a2b133b753a957ab3dd053db50eabeb80316e
       selector:
         matchLabels:
           os: linux
           arch: arm64
     - bin: tug
-      uri: https://github.com/paingha/tugcli/releases/download/v0.1.4/tug_0.1.4_linux_amd64.tar.gz
-      sha256: f955eef7723046d813dd02066dd7bf4495c80062635b7a9afe2856796a77466d
+      uri: https://github.com/paingha/tugcli/releases/download/v0.2.0/tug_0.2.0_linux_amd64.tar.gz
+      sha256: 8ecc9a626e46b5369dbf46e99b6b82470b81f15c6a7fb2d220571b38b092752b
       selector:
         matchLabels:
           os: linux
           arch: amd64
     - bin: tug
-      uri: https://github.com/paingha/tugcli/releases/download/v0.1.4/tug_0.1.4_darwin_arm64.tar.gz
-      sha256: c41b53914d5e417cd0145ad52890b6d9f18c10977f3fa64e4de9619001621bab
+      uri: https://github.com/paingha/tugcli/releases/download/v0.2.0/tug_0.2.0_darwin_arm64.tar.gz
+      sha256: cbcc658b187310a3405750752a913f2b76383ac98e96a4ff5399882362bd6b6c
       selector:
         matchLabels:
           os: darwin
           arch: arm64
     - bin: tug
-      uri: https://github.com/paingha/tugcli/releases/download/v0.1.4/tug_0.1.4_darwin_amd64.tar.gz
-      sha256: 668006d57021d23413179459068a7b39bd2772fc821de4a9eb8310474861ddbb
+      uri: https://github.com/paingha/tugcli/releases/download/v0.2.0/tug_0.2.0_darwin_amd64.tar.gz
+      sha256: f1f69914ba7cb6f37ac96dd3750d06c9079e19037b6c0e81c46421c0b369504e
       selector:
         matchLabels:
           os: darwin
